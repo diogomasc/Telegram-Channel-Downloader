@@ -1,0 +1,20 @@
+# Credenciais e sessões — NUNCA commitar
+.tgdl_config.json
+.tgdl_state.json
+*.session
+*.session-journal
+
+# Downloads e Configurações de execução
+download/
+config/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Docker
+.docker/

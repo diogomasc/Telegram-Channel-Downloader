@@ -1,0 +1,4 @@
+telethon==1.36.0
+aiofiles==23.2.1
+rich==13.7.1
+cryptg==0.4.0
