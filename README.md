@@ -55,7 +55,7 @@ As credenciais são salvas em `.tgdl_config.json` (modo 600, excluído do git). 
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ### Build
 
@@ -77,7 +77,7 @@ docker run -it --rm \
 
 ---
 
-## 📂 Estrutura de saída
+## Estrutura de saída
 
 ```
 download/canal_nome/
@@ -93,7 +93,7 @@ download/canal_nome/
 
 ---
 
-## ⚙️ Menu Interativo
+## Menu Interativo
 
 Ao rodar o script, você terá um menu interativo com as seguintes opções:
 
@@ -109,7 +109,7 @@ A cada retorno ao menu principal, a tela é limpa para facilitar a navegação.
 
 ---
 
-## 🗂️ Glossário / Menu
+## Glossário / Menu
 
 O script detecta automaticamente mensagens que funcionam como índice do canal, como:
 
@@ -122,7 +122,7 @@ E usa as tags `#F01`, `#A01`, etc., para organizar cada arquivo na pasta da aula
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 - `.tgdl_config.json` e `.tgdl_*.session` são criados com permissões `600`
 - O `.gitignore` incluído garante que nunca sejam commitados
@@ -130,7 +130,7 @@ E usa as tags `#F01`, `#A01`, etc., para organizar cada arquivo na pasta da aula
 
 ---
 
-## 📦 Dependências principais
+## Dependências principais
 
 | Pacote | Função |
 |---|---|
@@ -141,7 +141,7 @@ E usa as tags `#F01`, `#A01`, etc., para organizar cada arquivo na pasta da aula
 
 ---
 
-## ⚠️ Avisos
+## Avisos
 
 - Use apenas para canais nos quais você tenha **permissão** para baixar o conteúdo.
 - O Telegram impõe rate-limits; o script os respeita automaticamente (`FloodWaitError`).
@@ -149,6 +149,6 @@ E usa as tags `#F01`, `#A01`, etc., para organizar cada arquivo na pasta da aula
 
 ---
 
-## 📄 Licença
+## Licença
 
 MIT
